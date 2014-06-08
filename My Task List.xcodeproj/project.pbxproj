@@ -13,6 +13,8 @@
 		A23EC23A193FF44A002F0A2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23EC238193FF44A002F0A2E /* Main.storyboard */; };
 		A23EC23C193FF44A002F0A2E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23EC23B193FF44A002F0A2E /* Images.xcassets */; };
 		A23EC248193FF44A002F0A2E /* My_Task_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23EC247193FF44A002F0A2E /* My_Task_ListTests.swift */; };
+		A23EC255193FF4FA002F0A2E /* TaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23EC254193FF4FA002F0A2E /* TaskManager.swift */; };
+		A23EC25919404154002F0A2E /* 562858_3075640589517_36604616_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A23EC25819404154002F0A2E /* 562858_3075640589517_36604616_n.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		A23EC241193FF44A002F0A2E /* My Task ListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Task ListTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A23EC246193FF44A002F0A2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A23EC247193FF44A002F0A2E /* My_Task_ListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Task_ListTests.swift; sourceTree = "<group>"; };
+		A23EC254193FF4FA002F0A2E /* TaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskManager.swift; sourceTree = "<group>"; };
+		A23EC25819404154002F0A2E /* 562858_3075640589517_36604616_n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 562858_3075640589517_36604616_n.jpg; path = ../../../../Downloads/562858_3075640589517_36604616_n.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +86,9 @@
 				A23EC236193FF44A002F0A2E /* SecondViewController.swift */,
 				A23EC238193FF44A002F0A2E /* Main.storyboard */,
 				A23EC23B193FF44A002F0A2E /* Images.xcassets */,
+				A23EC25819404154002F0A2E /* 562858_3075640589517_36604616_n.jpg */,
 				A23EC230193FF44A002F0A2E /* Supporting Files */,
+				A23EC254193FF4FA002F0A2E /* TaskManager.swift */,
 			);
 			path = "My Task List";
 			sourceTree = "<group>";
@@ -193,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A23EC23A193FF44A002F0A2E /* Main.storyboard in Resources */,
+				A23EC25919404154002F0A2E /* 562858_3075640589517_36604616_n.jpg in Resources */,
 				A23EC23C193FF44A002F0A2E /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,6 +220,7 @@
 			files = (
 				A23EC237193FF44A002F0A2E /* SecondViewController.swift in Sources */,
 				A23EC233193FF44A002F0A2E /* AppDelegate.swift in Sources */,
+				A23EC255193FF4FA002F0A2E /* TaskManager.swift in Sources */,
 				A23EC235193FF44A002F0A2E /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -401,6 +409,7 @@
 				A23EC24D193FF44A002F0A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A23EC24E193FF44A002F0A2E /* Build configuration list for PBXNativeTarget "My Task ListTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +418,7 @@
 				A23EC250193FF44A002F0A2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
